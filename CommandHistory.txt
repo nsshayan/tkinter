@@ -1,0 +1,8 @@
+   99  pip install pyinstaller
+  109  pyinstaller loginPage.py 
+  114  pyinstaller --onefile --windowed loginPage.py 
+  115  sudo pyinstaller --onefile --windowed loginPage.py 
+  118  pyinstaller --onefile --windowed ../loginPage.py 
+  146  pyinstaller --onefile --windowed ../loginPage.py 
+  157  pyinstaller --onefile --windowed ../loginPage.py 
+  206  history | grep pyinstaller

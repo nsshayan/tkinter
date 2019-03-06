@@ -1,0 +1,3 @@
+([('CMSP',
+   '/Users/snaganan/Documents/Personal/Projects/Python/tkinter/CMSP-project/dist/CMSP',
+   'EXECUTABLE')],)

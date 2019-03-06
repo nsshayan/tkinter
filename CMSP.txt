@@ -1,0 +1,261 @@
+**ALL QUESTIONS MUST BE ANSWERED | N/A is NOT ACCEPTABLE and if used, the Change will be Rejected**
+**To each question with options contained within (), Please remove the (option) and replace with only the correct answer**
+
+Scheduled Start Date (ISO format YYYY-MM-DD) and Time (UTC) *** Enter the start date and time as per the format ***
+Scheduled End Date (ISO format YYYY-MM-DD) and Time (UTC) *** Enter the end date and time as per the format ***
+
+Change Duration (in hours): *** Enter the duration ***
+Change duration Explanation*: ***
+*If duration longer than 48 hours, explanation is required:
+
+
+**Change Fields**
+
+1. High-level Technical Description of the Change Request:
+[System Name: XXXX ]New link addition at *** location*** as a part of network dual link resilience project.
+
+2. What is the desired outcome for this request?
+The network will be redundant and resilient.
+
+3. How will the desired outcome be measured?
+Both the circuits need to be up.
+
+4. What is the Business Justification to Implement the Change (Add additional justification if Lead Time is < 7 days)?:
+This activity is required for better network performance and to achieve redundancy.
+
+5. Risk on implementation: If the implementation fails, the secondary circuit will not come up and hence the node will have no redundancy wrt circuit
+
+6. Risk on non-implementation: If the activity is not performed, the node will run on only one circuit and if the circuit goes down, the device connectivity will be lost
+
+7. Impact Scope: (Global, APAC, Europe, MENAT, HBUS, HBMX, HBCA) *** APAC/ EMEAR/AMER ****
+
+8. Affected Site(s): 
+*** Fill with sites in this change *** 
+*** include physical street address and branch # ***
+
+9. Will There be Impact to the User Experience? (No)
+
+10. How long is the expected Downtime of the User Experience?: No downtime
+
+11. HSBC Requester Name: 
+*** Add HSBC Requester Contact Details ***
+
+12. Is Testing needed from HSBC? (Yes) 
+*** provide name and contact details ***
+
+13. CMDB update required: (Yes)
+Cramer needs to be updated with new Circuit ID.
+
+14. Is an Operational Readiness Test [ORT] required? (No)
+
+15. Does Sharepoint documentation need to be updated? (Yes)
+
+16. Is Alarm Suppression needed? (No)
+
+17. Change Request Nature: (Transform, RtB, CtB, Problem, Incident) *** RtB/CTB ***
+
+18. Provide the supporting ticket #: *** RTB/ CTB # ***
+
+19. To be implemented by: (Engineer’s name, HSBC email address and phone number)
+*** Add Engineer Name & details ***
+
+20. Who is the Cisco Project Manager for this request?: *** Enter the Cisco PM Full name, Email & Phone # ***
+
+21. Where is the Backup file/configuration located?: HPNA
+
+22. Will there be an impact to Redundancy or Resiliency?: (No)
+
+23. If Yes to 22, clarify what will that impact be and when throughout the change window it will occur.
+
+24. Will there be Downtime to any device or service?: (No)
+
+25. All Affected CI(s) without IP addresses:
+*** CIs ***
+
+26. All Affected Service(s): Network services
+
+27. Peer Reviewed By: (L2/L3 Engineer Name) *** Enter the engineer's name who has reviewed it ***
+
+**The following questions are not to be placed in the GSD description field but are still mandatory to be completed**
+28. To execute the change do you require Privilege Access (PAR)? (Yes)
+
+29. Will the change be executed during online hours and outside a scheduled maintenance window? (No)
+
+30. Number of Configuration Items in scope of the change (SUM of items in Q25): *** Enter the number of Configuration Items ***
+
+====================================
+
+Communications Plan (Both internal and external)
+
+What is to be communicated? No Communication required as we are justting adding a new circuit 
+To whom? No Communication required as we are justting adding a new circuit 
+How often? No Communication required as we are justting adding a new circuit
+
+====================================
+*****Project requests need to have the approver groups listed in this section******
+
+Provide all HSBC approver groups and interested parties:
+
+
+====================================
+(This is to be listed as the First Task in GSD change request, if TPAM/PAR access is not needed remove this section)
+
+Task Title: Release of Password in TPAM/PAR:
+
+SYSTEM NAME: XXXX 
+
+Conduct Change: [System Name: XXXX ]New link addition at *** location*** as a part of network dual link resilience project.
+Request and Release password in TPAM
+
+1. Does the change need privileged account(s) to execute? (Yes / No) - Yes
+2. Which IT function will use the PAR access account(s) ? (ITID / ADM) – ITID
+3. Is the change scheduled within the maintenance window? (Yes / No) - Yes
+4. Service / System Maintenance Window: (e.g. Sun 00:00-06:00) – *** Enter the start and end date and time ***
+5. Privilege Access Risk Level: NA / 1 / 2 / 3 - NA
+
+Access required on multiple days?: NO
+Multiple access requests to be made against this task on any given day? YES
+What times within the change window are access required between?: *** Enter the start and end date and time ***
+3 Digit Account #s to which access is required: 838
+
+Cisco Group (Delete all BUT the One to be selected): 
+HOST-PROJECT-CISCO
+
+All CIs that need access:
+*** provide the CI list ***
+
+(End of Section)
+====================================
+
+****Implementation Task Rules*****
+
+1. If ANY tasks are needed to be completed by any other group other than the implementing Cisco Team or Cisco FE/Vendor then that task needs to be noted in the following format:
+
+No additional tasks required.
+
+These tasks should be placed in between the correct plans/section below.
+
+2. A Summary of all tasks will be provided in this section (replacing the Example below) so that a clear understanding of all teams involved and when their assigend tasks will be completed.
+
+Example:
+
+Task #1 Pre-implementation Host-Project-Cisco
+Task #2 Implementation Plan Host-Project-Cisco
+Task #3 Post-Implementation Plan Host-Project-Cisco
+Task #4 Back-out Plan Host-Project-Cisco (If implementation fails)
+
+3. If there is a need for an ORT to be completed by the Cisco Operation's team then that task needs to be assigned with a 2 business day window for the team to complete the ORT. This 2 business day window needs to be included as part of the change window.
+ORT not required.
+
+====================================
+
+Pre-Implementation Check: 
+
+Total Duration in Minutes: 
+
+Checklist: (If the following checklist questions are answered No during pre-implementation, this would put the change at risk for not being successfully completed and the change should be rescheduled)
+1. Is Staging of files required/completed? Not Required
+2. Is the FE on-site? Required
+3. Has Access to site/device been confirmed? Yes
+4. Is the Software available? Not Required
+5. Has the Hardware been delivered and is accessible? Yes
+6. Is the Change Request is fully approved?
+
+All Change requests shall have health check run as part of Pre-Implementation (include details of how and what is being tested)
+As attached in implementation plan.
+
+====================================
+
+Implementation Steps: 
+
+
+Duration in Minutes: 
+
+Cisco engineer shall:
+
+1) Call the Cisco NOC and ask permission to start the change
+
+2) Call the HSBC NOC and inform them that the change is about to start
+
+3) Reply all to the change announcement clearly stating name of CMS NOC engineer approving change to start
+
+4) When required, initiate MAP alarm suppression for the targeted CIs. If not required remove this step.
+
+5) As attached in implementation plan.
+
+=====================================
+
+Post-Implementation Check: 
+
+
+Duration in Minutes: 
+
+Desired intent check
+Cisco engineer shall:
+
+1) Login and follow as per implementation plan.
+
+2) Call the HSBC NOC and ask if any alarms or incidents have been created during the window for the targeted CIs.
+
+3) Call the Cisco NOC and ask if any alarms or incidents have been created during the window for the targeted CIs.
+
+4) Reply all to the change announcement with the change status
+
+=====================================
+
+Back-out Procedure: 
+
+
+Duration in Minutes: 
+
+Cisco engineer shall:
+
+1) Call the HSBC NOC and ask if any alarms or incidents have been created during the window for the targeted CIs.
+
+2) Call the Cisco NOC and ask if any alarms or incidents have been created during the window for the targeted CIs.
+
+3) Reply all to the change announcement with the change status(Failure)
+
+4) Rollback the config as per Implementation Plan.
+
+====================================
+
+Change Survey - ALL QUESTIONS MUST BE ANSWERED
+1. Enter the number of regions affected by the change request. 
+2. Does this change implementation introduce a New Service? No
+3. Will there be a disruption to the availability of any business service? No
+4. Is this Change outside of the normal Maintenance Window? No
+5. Revenue/Business Functionality (Questions pertain to the business and financial risk that the change poses.) 
+d) Negative outcomes of change will not impair business functioning - no impact to revenue producing processes. (No Impact)
+
+6. Freeze Period Freeze periods restrict change activity during periods defined by the Business or Technology Services to protect production environments. (Questions ask is an application or infrastructure in a Freeze Period.) No
+7. Change Type Assessment (Questions pertain to identifying the correct impact of the change based on a Change Type (Normal or Emergency).Normal
+8. Software Change Complexity (Questions pertain to how many platforms and components are involved in the implementation of the change.) 
+e) This change does not involve any software components
+
+9. Hardware Change Complexity (Questions pertain to how many platforms and components are involved in the implementation of the change.)
+e) This change does not involve any hardware updates/implementations
+
+10. Back-out Capabilities (Questions pertain to how long and difficult the change is to back out.) 
+d) Easy to back out or no back out is required (No impact)
+
+11. User Population of the Service Affected (Questions pertain to the affected end-user population.) 
+d) Pilot or no segment of population (No Impact)
+
+12. Testing Performed (Questions pertain to the level of testing completed for the change) 
+e) Testing not required because there are no software or hardware changes scheduled
+
+13. System Platform Impacted (Questions pertain to identifying the environment changing) 
+a) No Impact
+
+14. Has the backout plan for the change been tested and documented in this change? 
+b) Backout plan has been executed previously in a production environment
+
+15. Indicate the type of restart necessary for the change 
+e) N/A
+
+16. Has the change been attempted in production before? 
+a) Successful at last attempt
+
+
+

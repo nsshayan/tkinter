@@ -1,0 +1,14 @@
+# Exlcude all files mentioned here
+./Tkinter-GUI-Application-Development-Blueprints-Second-Edition
+./build
+./dist
+./loginPage.spec
+./Janet*
+./CMSP.txt
+./CommandHistory.txt
+./calculator.py
+./loginPage.py
+./CMSP_dup.txt
+./writingfile.py
+./text
+./__pycache__

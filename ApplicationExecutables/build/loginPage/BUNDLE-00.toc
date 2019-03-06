@@ -1,0 +1,3 @@
+([('loginPage',
+   '/Users/snaganan/Documents/Personal/Projects/Python/tkinter/ApplicationExecutables/dist/loginPage',
+   'EXECUTABLE')],)
